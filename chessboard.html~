@@ -1,0 +1,13 @@
+
+<html>
+<head>
+	<title> chessboard </title>
+	<link rel="stylesheet" type="text/css" href="chessboard.css">
+	<script src = "chessboard.js"></script>
+</head>
+<body onload="chessBoard();">
+	<center>
+		<table id="output" border = "1" onload="positioningCoins();"></table>
+	</center>
+</body>
+</html>
